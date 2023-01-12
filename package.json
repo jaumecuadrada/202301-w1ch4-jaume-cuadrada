@@ -1,0 +1,25 @@
+{
+  "name": "202301-w1ch4-jaume-cuadrada",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumecuadrada/202301-w1ch4-jaume-cuadrada.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaumecuadrada/202301-w1ch4-jaume-cuadrada/issues"
+  },
+  "homepage": "https://github.com/jaumecuadrada/202301-w1ch4-jaume-cuadrada#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
+  }
+}
