@@ -54,3 +54,26 @@ body {
   color: white;
   font-size: 17px;
 }
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  gap: 30;
+}
+
+@media (min-width: 1170px) {
+  .image-gallery {
+    flex-direction: row;
+  }
+}
+
+img {
+  border-radius: 10%;
+  height: 400;
+  width: 600;
+}
