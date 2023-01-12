@@ -77,3 +77,31 @@ img {
   height: 400;
   width: 600;
 }
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 10%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+figure:hover figcaption {
+  display: flex;
+}
+
+p:nth-child(2) {
+  font-weight: 800;
+  font-size: 30;
+}
