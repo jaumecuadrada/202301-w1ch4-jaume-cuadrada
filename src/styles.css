@@ -1,0 +1,56 @@
+@import url(/node_modules/@fontsource/nunito/400.css);
+@import url(/node_modules/@fontsource/nunito/800.css);
+
+:root {
+  --color-main: #ed6436;
+  --typography-main: "Nunito", sans-seriff;
+  --button-border-radius: 0 30px 30px 30px;
+  --padding-left: 103px;
+  --padding-right: 103px;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--typography-main);
+}
+
+.header {
+  height: 64;
+  box-shadow: 0px 0px 5px 0 grey;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__title {
+  color: var(--color-main);
+}
+
+.main__bigtitle {
+  font-size: 70px;
+}
+
+.main__button {
+  display: flex;
+  background-color: #ed6436;
+  border-radius: var(--button-border-radius);
+  width: 137px;
+  height: 53;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
